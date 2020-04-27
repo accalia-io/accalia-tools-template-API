@@ -1,10 +1,10 @@
 import Sequelize from 'sequelize';
+// import moongose from 'mongoose';
 
 import databaseConfig from '../config/database';
 
 import User from '../app/models/User';
 import Avatar from '../app/models/Avatar';
-// import moongose from 'mongoose';
 
 const models = [User, Avatar];
 
